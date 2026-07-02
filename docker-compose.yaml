@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  tests:
+    build: .
+    volumes:
+      - ./allure-results:/app/allure-results
+      - ./src/data/config.json:/app/src/data/config.json
+    environment:
+      - PYTHONUNBUFFERED=1

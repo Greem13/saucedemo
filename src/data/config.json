@@ -1,0 +1,19 @@
+{
+  "browser": "chrome",
+  "browser_options": {
+    "chrome": [
+      "--incognito",
+      "--headless=new",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu",
+      "--window-size=1920,1080",
+      "--lang=en"
+    ],
+    "firefox": ["-lang=en"]
+  },
+  "firefox_profile": {"browser.privatebrowsing.autostart": true},
+  "timeout": 1,
+  "base_url": "https://www.saucedemo.com/",
+  "page_load_strategy": "eager"
+}

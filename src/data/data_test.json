@@ -1,0 +1,12 @@
+{
+  "users": [
+    {"username": "standard_user", "password": "secret_sauce", "locked_out": false},
+    {"username": "locked_out_user", "password": "secret_sauce", "locked_out": true},
+    {"username": "problem_user", "password": "secret_sauce", "locked_out": false},
+    {"username": "performance_glitch_user", "password": "secret_sauce", "locked_out": false},
+    {"username": "error_user", "password": "secret_sauce", "locked_out": false},
+    {"username": "visual_user", "password": "secret_sauce", "locked_out": false}
+  ],
+  "error_message_locked_out_user": "Epic sadface: Sorry, this user has been locked out.",
+  "error_message": "Epic sadface: Username and password do not match any user in this service"
+}

@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+allure-results/
+allure-report/
+.git/
+.gitignore
+README.md
+.dockerignore
+Dockerfile
+docker-compose.yml
